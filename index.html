@@ -119,7 +119,7 @@
                 <div id="projectid"> <img src="https://github.com/yuggiehk/annexe/blob/main/imgs/fig1.png?raw=true"
                         width="100%"> </div>
                 <figcaption style="font-size: 90%; margin-top: 12px; text-align: left; font-weight: 400"> Illuatration
-                    of Egocentric Interaction Reasoning and Pixel Grounding (Ego-IRG)</figcaption>
+                    of Ego-IRG task. This task allows for unified analyzing, answering, and pixel grounding regarding interactions within egocentric images based on various user queries. </figcaption>
             </figure>
         </center>
         <hr>
@@ -128,64 +128,56 @@
         </h3>
         <center>
             <figure>
-                <div id="projectid"> <img src="https://github.com/yuggiehk/annexe/blob/main/imgs/fig2.png?raw=true"
+                <div id="projectid"> <img src="https://github.com/yuggiehk/annexe/blob/main/imgs/fig3.png?raw=true"
                         width="100%"> </div>
-                <figcaption style="font-size: 90%; margin-top: 12px; text-align: left; font-weight: 400"> Illuatration
-                    of Egocentric Interaction Reasoning and Pixel Grounding (Ego-IRG)</figcaption>
+                <figcaption style="font-size: 90%; margin-top: 12px; text-align: left; font-weight: 400"> Illuatration of Ego-IRGBench dataset. This extensive dataset is built upon a collection of 20,504 RGB-D egocentric image pairs extracted from the <a
+                        href="https://hoi4d.github.io" rel="external nofollow noopener"
+                        target="_blank">HOI4D dataset</a>, including various interactions and environments from a first-person view. Specifically, each egocentric RGB image is paired with a depth map ((a.ii)) and an interaction description (a), providing spatial information about the scene and outlining the specific interaction taking place. Furthermore, multiple queries are labeled for each image, allowing for various inquiries related to the interactions depicted.
+Each query is paired with an answer and corresponding pixel-level grounding mask, forming systematic and ultimate feedback to the query. It is worth emphasizing that the query is not limited to inferring a single target (b) involving interactions. Multi-target (c) and no-target (d) queries are also provided in the Ego-IRGBench dataset, which shows the diversity of the dataset.</figcaption>
             </figure>
         </center>
         <hr>
         <h3> ANNEXE Model </h3>
         <center>
             <figure>
-                <div id="projectid"> <img src="https://github.com/yuggiehk/annexe/blob/main/imgs/fig2.png?raw=true"> </div>
+                <div id="projectid"> <img src="https://github.com/yuggiehk/annexe/blob/main/imgs/fig2.png?raw=true" style="max-width: 100%; height: auto;"> </div>
                 <figcaption style="font-size: 90%; margin-top: 12px; text-align: left; font-weight: 400"> Overview of
-                    the proposed LOCATE framework. It achieves part-level knowledge transfer in three steps: 1) locating
-                    interaction regions with ψ<sub>cam</sub>, 2) object-part embedding selection with PartSelect, and 3)
-                    part-level knowledge transfer with L<sub>cos</sub>. At test time, only the egocentric branch is
-                    maintained. </figcaption>
+                    the proposed ANNEXE framework. By incorporating the mask generation module, the proposed ANNEXE model can predict precise and query-orientated pixel-level masks regarding egocentric interactions, which can be applied to various downstream tasks with different requirements more efficiently. </figcaption>
             </figure>
         </center>
-        <hr>
-        <h3> Video Summary </h3>
-        <center>
-            <div class="embed-responsive embed-responsive-16by9" style="width: 95%"> <iframe
-                    class="embed-responsive-item" src="https://www.youtube.com/embed/RLHansdFxII" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen=""></iframe> </div>
-        </center>
-        <hr>
         <h3> Qualitative Results </h3>
         <center>
             <figure>
-                <div id="projectid"> <img src="/assets/img/locate/results.png" width="100%"> </div>
-                <figcaption style="font-size: 90%; margin-top: 12px; text-align: left; font-weight: 400"> Qualitative
-                    comparison between our approach and state-of-the-art affordance grounding methods (<a
-                        href="https://arxiv.org/abs/1812.04558" rel="external nofollow noopener"
-                        target="_blank">Hotspots [41]</a>, <a href="https://arxiv.org/abs/2203.09905"
-                        rel="external nofollow noopener" target="_blank">Cross-view-AG [36]</a>, and <a
-                        href="https://arxiv.org/abs/2208.13196" rel="external nofollow noopener"
-                        target="_blank">Cross-view-AG+ [35]</a>). For the unseen setting, the displayed objects are not
-                    in the training set. For example, the model learns where a motorcycle can be ridden in training, and
-                    locates rideable area for the bicycle at test time. </figcaption>
+                <div id="projectid"> <img src="https://github.com/yuggiehk/annexe/blob/main/imgs/Supp-fig5.png?raw=true" width="100%"> </div>
+                <figcaption style="font-size: 90%; margin-top: 12px; text-align: left; font-weight: 400"> Qualitative results of our ANNEXE model (b) and Ground Truth (c). </figcaption>
             </figure>
         </center>
         <hr>
         <h3> Citation </h3>
         <div class="language-plaintext highlighter-rouge">
             <div class="highlight">
-                <pre class="highlight"><code>@inproceedings{li:locate:2023,
-    title = {LOCATE: Localize and Transfer Object Parts for Weakly Supervised Affordance Grounding},
-    author = {Li, Gen and Jampani, Varun and Sun, Deqing and Sevilla-Lara, Laura},
+                <pre class="highlight"><code>@inproceedings{su:annexe:2025,
+    title = {ANNEXE: Unified Analyzing, Answering, and Pixel Grounding for Egocentric Interaction},
+    author = {Yuejiao Su, Yi Wang, Qiongyang Hu, Chuang Yang, and Lap-Pui Chau},
     booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-    year={2023}
+    year={2025}
   }
   </code></pre>
             </div>
         </div>
+         <div class="highlight">
+        <h3>Data</h3>
+        <p>News: The Ego-IRGBench dataset will be released soon.</p>
+        <p>Ego-IRGBench_Egocentric_Image.<a href="" target="_blank"><span class="icon"> <i class="fas fa-download"></i> </span>Egocentric_Image</a>. </p>
+        <p>Ego-IRGBench_depth.<a href="" target="_blank"><span class="icon"> <i class="fas fa-download"></i> </span>Depth_Map</a>. </p>
+        <p>Ego-IRGBench_Query_Answer.<a href="" target="_blank"><span class="icon"> <i class="fas fa-download"></i> </span>Query_Answer</a>. </p>
+        <p>Ego-IRGBench_Mask.<a href="" target="_blank"><span class="icon"> <i class="fas fa-download"></i> </span>Mask</a>. </p>     
+        <p>Baidu Cloud download link.<a href="" target="_blank"><span class="icon"> <i class="fas fa-download"></i> </span>Baidu Cloud download link.</a>. </p>
     </div>
+    </div>
+    
     <footer class="sticky-bottom mt-5">
-        <div class="container"> © Copyright 2025 Gen Li. Last updated: May 09, 2025. </div>
+        <div class="container"> © Copyright 2025 Yuejiao Su. Last updated: 16 May, 2025. </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
