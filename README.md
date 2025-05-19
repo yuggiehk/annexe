@@ -17,7 +17,7 @@
             <img src='https://github.com/yuggiehk/annexe/raw/refs/heads/main/imgs/project.svg' alt='Project Page'>
         </a>
         <a href=''>
-            <img src='[https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Model-yellow](https://github.com/yuggiehk/annexe/raw/refs/heads/main/imgs/model.svg)'>
+            <img src='https://github.com/yuggiehk/annexe/raw/refs/heads/main/imgs/model.svg'>
         </a>
         <br>
     </p>
