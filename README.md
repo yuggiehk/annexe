@@ -11,7 +11,7 @@
         <br>
         <br>
         <a href="https://arxiv.org/abs/2504.01472">
-            <img src='https://img.shields.io/badge/arXiv-XDyna-green' alt='Paper PDF'>
+            <img src='https://github.com/yuggiehk/annexe/raw/refs/heads/main/imgs/arxiv.svg' alt='Paper PDF'>
         </a>
         <a href='https://yuggiehk.github.io/annexe/'>
             <img src='https://img.shields.io/badge/Project_Page-XDyna-blue' alt='Project Page'>
