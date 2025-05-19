@@ -14,7 +14,7 @@
             <img src='https://github.com/yuggiehk/annexe/raw/refs/heads/main/imgs/arxiv.svg' alt='Paper PDF'>
         </a>
         <a href='https://yuggiehk.github.io/annexe/'>
-            <img src='https://img.shields.io/badge/Project_Page-XDyna-blue' alt='Project Page'>
+            <img src='https://github.com/yuggiehk/annexe/raw/refs/heads/main/imgs/project.svg' alt='Project Page'>
         </a>
         <a href='https://huggingface.co/Boese0601/X-Dyna'>
             <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Model-yellow'>
