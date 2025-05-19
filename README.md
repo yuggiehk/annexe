@@ -16,8 +16,8 @@
         <a href='https://yuggiehk.github.io/annexe/'>
             <img src='https://github.com/yuggiehk/annexe/raw/refs/heads/main/imgs/project.svg' alt='Project Page'>
         </a>
-        <a href='https://huggingface.co/Boese0601/X-Dyna'>
-            <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Model-yellow'>
+        <a href=''>
+            <img src='[https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Model-yellow](https://github.com/yuggiehk/annexe/raw/refs/heads/main/imgs/model.svg)'>
         </a>
         <br>
     </p>
