@@ -41,6 +41,25 @@ Egocentric interaction perception is one of the essential branches in investigat
 
 ## **Training**
 ### **Dataset Preparation**
+The Ego-IRGBench dataset has been uploaded to [Google Drive](https://drive.google.com/file/d/1lGLFg_xJvd5JBmm81GKx6DmU9QGBtFiz/view). Please download and unzip it in your data_root.
+The structure of the data folder should be organized as follows,
+```
+- Data_root
+	|- RGB
+	|- depth
+	|- mask
+	|- dataset_split
+        |- train
+            |- ZY20210800001_H1_C11_N07_S185_s02_T2_00104.json
+            |- ZY20210800001_H1_C11_N07_S185_s02_T2_00212.json
+            |- ...
+        |- test
+            |- ZY20210800001_H1_C11_N07_S185_s02_T2_00069.json
+            |- ...
+        |- val
+            |- ZY20210800001_H1_C11_N07_S185_s02_T2_00079.json
+            |- ...
+```
 ### **Setup**
 Create the environment by:
 
