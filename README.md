@@ -39,6 +39,15 @@ Egocentric interaction perception is one of the essential branches in investigat
 - [2025.05] The [Project Page](https://yuggiehk.github.io/annexe/) is released.
 - [2025.02] The paper is accepted by [CVPR 2025](https://cvpr.thecvf.com/).
 
+## **Training**
+### **Dataset Preparation**
+### **Setup**
+Create the environment by:
+
+```conda env create -f environment.yml
+conda activate annexe
+```
+
 
 ## **Acknowledgements**
 This code is developed based on [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4), [MiniGPT-4V2](https://github.com/Vision-CAIR/MiniGPT-4), and [Depth-Anything](https://github.com/LiheYoung/Depth-Anything). We appreciate their contributions for their open-sourced research.
