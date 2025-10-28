@@ -44,7 +44,8 @@ Egocentric interaction perception is one of the essential branches in investigat
 ### **Setup**
 Create the environment by:
 
-```conda env create -f environment.yml
+```
+conda env create -f environment.yml
 conda activate annexe
 ```
 
