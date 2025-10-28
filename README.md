@@ -48,7 +48,10 @@ Create the environment by:
 conda env create -f environment.yml
 conda activate annexe
 ```
-
+Download this repo:
+```
+git clone https://github.com/yuggiehk/annexe.git
+```
 
 ## **Acknowledgements**
 This code is developed based on [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4), [MiniGPT-4V2](https://github.com/Vision-CAIR/MiniGPT-4), and [Depth-Anything](https://github.com/LiheYoung/Depth-Anything). We appreciate their contributions for their open-sourced research.
