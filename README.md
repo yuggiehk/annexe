@@ -51,6 +51,7 @@ conda activate annexe
 Download this repo:
 ```
 git clone https://github.com/yuggiehk/annexe.git
+cd annexe
 ```
 
 ## **Acknowledgements**
