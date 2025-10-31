@@ -34,10 +34,10 @@ Egocentric interaction perception is one of the essential branches in investigat
 
 ## 📑 **News**
 - [TO DO.] Release the checkpoint.
-- [TO DO.] Release the dataset.
 - [TO DO.] Release the code.
-- [2025.05] The [Project Page](https://yuggiehk.github.io/annexe/) is released.
-- [2025.02] The paper is accepted by [CVPR 2025](https://cvpr.thecvf.com/).
+- [Finished] Release the dataset.
+- [Finished] The [Project Page](https://yuggiehk.github.io/annexe/) is released.
+- [Finished] The paper is accepted by [CVPR 2025](https://cvpr.thecvf.com/).
 
 ## **Training**
 ### **Dataset Preparation**
