@@ -41,7 +41,7 @@ Egocentric interaction perception is one of the essential branches in investigat
 
 ## **Training**
 ### **Dataset Preparation**
-The Ego-IRGBench dataset has been uploaded to [Google Drive](https://drive.google.com/file/d/1lGLFg_xJvd5JBmm81GKx6DmU9QGBtFiz/view). Please download and unzip it in your data_root.
+The Ego-IRGBench dataset has been uploaded to [Hugginface](https://huggingface.co/datasets/yuki3585/Ego-IEGBench). Please download and unzip it in your data_root.
 The structure of the data folder should be organized as follows,
 ```
 - Data_root
