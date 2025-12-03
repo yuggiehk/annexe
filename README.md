@@ -60,7 +60,7 @@ The structure of the data folder should be organized as follows,
             |- ...
 ```
 
-Replace the configurations in /home/suyuejiao/MiniGPT-4/minigpt4/configs/datasets/egoirgbench/config.yaml with your saved path for dataset. Also, replace the depth and mask path in "/home/suyuejiao/MiniGPT-4/minigpt4/datasets/datasets/ego_irgbench_dataset.py" with your own path.
+Replace the configurations in minigpt4/configs/datasets/egoirgbench/config.yaml with your saved path for dataset. Also, replace the depth and mask path in minigpt4/datasets/datasets/ego_irgbench_dataset.py with your own path.
 
 
 ### **Setup**
