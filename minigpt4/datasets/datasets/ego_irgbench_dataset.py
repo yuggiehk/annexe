@@ -23,8 +23,8 @@ class EgoIRGBenchDataset(Dataset):
         self.vis_root = vis_root
         self.qa_folder = ann_paths
         self.rgb_folder = vis_root
-        self.depth_folder = "/mnt/nvme1/suyuejiao/Final_rgbd_dataset/ANNEXE/depth/"
-        self.mask_folder = "/mnt/nvme1/suyuejiao/Final_rgbd_dataset/ANNEXE/mask/"
+        self.depth_folder = "path/to/dataset/depth/folder/"
+        self.mask_folder = "path/to/dataset/mask/folder/"
 
         data_list = []
         for json_filename in os.listdir(self.qa_folder):
@@ -183,36 +183,3 @@ class EgoIRGBenchDataset(Dataset):
             if 'query_id' in ann.keys():
                 del ann['query_id']
     
-
-# if __name__=='__main__':
-#     dt = EgoInterDataset(vis_root="/mnt/nvme1/suyuejiao/Final_rgbd_dataset/RGB/",
-#                          ann_paths="/mnt/nvme1/suyuejiao/Final_rgbd_dataset/small_EGOINTER/train/",
-#                          depth_folder="/mnt/nvme1/suyuejiao/Final_rgbd_dataset/depth/",
-#                          mask_folder="/mnt/nvme1/suyuejiao/Final_rgbd_dataset/mask/")
-#     train_loader = DataLoader(dt, batch_size=4, shuffle=True)
-
-#     print(len(train_loader))
-#     for item in train_loader:
-#         # print(item.keys())   
-#         # print(item['image'].shape) # torch.Size([4, 3, 448, 448])
-#         # print(item['depth'].shape) # torch.Size([4, 1, 448, 448])
-#         # print(item['mask'].shape)  # torch.Size([4, 448, 448])
-#         print(item['ori_shape'])
-        
-        # bsz, _, h, w  = item['image'].shape
-        # for i in range(bsz):
-            # image_path = item['image_path'][i]
-            # print(image_path)
-            # img = cv2.imread(image_path)
-            # cv2.imwrite('/mnt/nvme1/suyuejiao/Final_rgbd_dataset/Depth-Anything-V2/pretrained/sample1.jpg', img)
-            
-            # image = item['image'][i]
-            # image_pil = transforms.ToPILImage()(image)
-            # image_pil.save('/mnt/nvme1/suyuejiao/Final_rgbd_dataset/Depth-Anything-V2/pretrained/sample.jpg')
-
-            # depth = item['depth'][i]
-            # depth = depth*255
-            # depth_pil = transforms.ToPILImage()(depth)
-            # depth_pil.save('/mnt/nvme1/suyuejiao/Final_rgbd_dataset/Depth-Anything-V2/pretrained/sample2.jpg')
-
-        #     print('==',item['vqa_query'][i])
