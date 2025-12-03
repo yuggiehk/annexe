@@ -5,14 +5,14 @@ model:
   end_sym: "</s>"
   low_resource: False
   prompt_template: '[INST] {} [/INST]'
-  llama_model: "/home/suyuejiao/.cache/huggingface/hub/models--meta-llama--Llama-2-7b-chat-hf/snapshots/f5db02db724555f92da89c216ac04704f23d4590/"
-  ckpt: "/mnt/nvme1/suyuejiao/Final_rgbd_dataset/ANNEXE/MiniGPT-4/ckpt_save_path/first_setting/20241118162/checkpoint_42.pth"
+  llama_model: "path/to/llama/model"
+  ckpt: "path/to/your/checkpoint"
   lora_r: 64
   lora_alpha: 16
 
 
 datasets:
-  cc_sbu_align:
+  egoirgbench:
     vis_processor:
       train:
         name: "blip2_image_eval"
@@ -22,18 +22,19 @@ datasets:
         name: "blip_caption"
 
 evaluation_datasets:
-  hm:
+  egoirgbench:
     eval_file_path: ""
-    img_path: /mnt/nvme1/suyuejiao/Final_rgbd_dataset/ANNEXE/RGB/
+    img_path: path/to/dataset/RGB/folder
     max_new_tokens: 20
     batch_size: 10
 
 run:
   task: image_text_pretrain
-  name: minigptv2_evaluation
-  save_path: /mnt/nvme1/suyuejiao/Final_rgbd_dataset/MiniGPT-4/ckpt_save_path/20241022173/result/
+  name: annexe_eval
+  save_path: path/to/your/saved/results
 
   
 
   
+
 
