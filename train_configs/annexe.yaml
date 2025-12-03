@@ -5,8 +5,8 @@ model:
   image_size: 448
   end_sym: "</s>"
   prompt_template: '[INST] {} [/INST] '
-  llama_model: "/home/suyuejiao/.cache/huggingface/hub/models--meta-llama--Llama-2-7b-chat-hf/snapshots/f5db02db724555f92da89c216ac04704f23d4590/"
-  ckpt: "/mnt/nvme1/suyuejiao/Final_rgbd_dataset/ANNEXE/MiniGPT-4/minigptv2_ckpt/checkpoint_stage2.pth"
+  llama_model: "path/to/llama"
+  ckpt: "path/to/minigpt"
   use_grad_checkpoint: True
   chat_template: True
   lora_r: 64
@@ -56,7 +56,7 @@ run:
   iters_per_epoch: 2544
 
   seed: 42
-  output_dir: "/mnt/nvme1/suyuejiao/Final_rgbd_dataset/MiniGPT-4/ckpt_save_path/"
+  output_dir: "path/to/output_dir"
 
   amp: True
   resume_ckpt_path: null
@@ -72,4 +72,5 @@ run:
   distributed: True
 
   wandb_log: True
-  job_name: minigptv2_finetune
+  job_name: annexe
+
