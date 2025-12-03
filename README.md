@@ -107,11 +107,15 @@ The research work was conducted in the JC STEM Lab of Machine Learning and Compu
 If you find [ANNEXE](https://yuggiehk.github.io/annexe/) useful for your research and applications, please cite ANNEXE using this BibTeX:
 
 ```BibTeX
-@article{su:annexe:2025,
-  title={ANNEXE: Unified Analyzing, Answering, and Pixel Grounding for Egocentric Interaction},
-  author={Yuejiao Su, Yi Wang, Qiongyang Hu, Chuang Yang, and Lap-Pui Chau},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2025}
-}
+@INPROCEEDINGS{su2025annexe,
+  author={Su, Yuejiao and Wang, Yi and Hu, Qiongyang and Yang, Chuang and Chau, Lap-Pui},
+  booktitle={2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={ANNEXE: Unified Analyzing, Answering, and Pixel Grounding for Egocentric Interaction}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={9027-9038},
+  keywords={Computer vision;Image resolution;Grounding;Large language models;Computational modeling;Cognition;Pattern recognition;Intelligent systems;Next generation networking},
+  doi={10.1109/CVPR52734.2025.00844}}
 ```
 
