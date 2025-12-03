@@ -16,7 +16,7 @@
         <a href='https://yuggiehk.github.io/annexe/'>
             <img src='https://github.com/yuggiehk/annexe/raw/refs/heads/main/imgs/project.svg' alt='Project Page'>
         </a>
-        <a href=''>
+        <a href='https://huggingface.co/datasets/yuki3585/Ego-IEGBench'>
             <img src='https://github.com/yuggiehk/annexe/raw/refs/heads/main/imgs/model.svg'>
         </a>
         <br>
