@@ -82,13 +82,13 @@ save_path = cfg.run_cfg.save_path
 batch_size = 10
 max_new_tokens = 50
 dt = EgoIRGBenchDataset(vis_processor=vis_processor, text_processor=text_processor, 
-                        vis_root="/mnt/nvme1/suyuejiao/Final_rgbd_dataset/ANNEXE/RGB/",
-                         ann_paths="/mnt/nvme1/suyuejiao/Final_rgbd_dataset/ANNEXE/dataset_split/new_new_test/",
-                         depth_folder="/mnt/nvme1/suyuejiao/Final_rgbd_dataset/ANNEXE/depth/",
-                         mask_folder="/mnt/nvme1/suyuejiao/Final_rgbd_dataset/ANNEXE/mask/")
+                        vis_root="path/to/dataset/RGB/",
+                         ann_paths="path/to/split/dataset",
+                         depth_folder="path/to/dataset/depth/",
+                         mask_folder="path/to/dataset/mask/")
 val_loader = DataLoader(dt, batch_size=batch_size, shuffle=True)
 
-output_save_path = '/mnt/nvme1/suyuejiao/Final_rgbd_dataset/ANNEXE/MiniGPT-4/results/newnew/'
+output_save_path = 'path/to/output_result/'
 save_mask_path = output_save_path + 'mask/'
 save_depth_path = output_save_path + 'depth/'
 output_json = output_save_path + 'output.json'
@@ -287,4 +287,5 @@ with open(output_json,'a') as json_file:
     json_file.write(str(mae_final)) 
     json_file.write('\n') 
     json_file.write(str(ciou_final)) 
+
     json_file.write('\n') 
