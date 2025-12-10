@@ -78,7 +78,7 @@ cd annexe
 
 ### Download the model
 
-Download the LLAMA model in [here](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/tree/main) and [Mini-GPT model](https://drive.google.com/file/d/1Vi_E7ZtZXRAQcyz4f8E6LtLh2UXABCmu/view), replace the corresponding path in train_configs/annexe.yaml (line 8 and line 9). The directory path of output should also be set.
+Download the LLAMA model [here](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/tree/main) and [Mini-GPT model](https://drive.google.com/file/d/1Vi_E7ZtZXRAQcyz4f8E6LtLh2UXABCmu/view), replace the corresponding path in train_configs/annexe.yaml (line 8 and line 9). The directory path of output should also be set.
 
 ### Running 
 ```
